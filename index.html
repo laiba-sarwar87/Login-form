@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>Welcome Back</h1>
+
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="E-mail">
+        <input type="password" id="password" placeholder="Password">
+        <input type="password" id="confirmPassword" placeholder="Confirm password">
+
+        <button id="actionBtn" onclick="handleAction()">Sign Up</button>
+
+        <p class="or">or</p>
+
+        <p class="login-link" id="toggleLink">
+            Already have an account ? <a href="#" onclick="toggleMode()"> Log in</a>
+        </p>
+
+        <p id="msg"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
