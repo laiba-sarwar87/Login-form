@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/1200x/e2/6d/35/e26d352c8710bab40b472bca96997506.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(3px);
+    padding: 20px;
+}
+
+.card{
+    
+    background: transparent;  
+    backdrop-filter: blur(3px);           
+    border-radius: 10px;
+    padding: 45px;
+    width: 50 px;
+    box-shadow: 0 8px 30px rgba(2, 2, 2, 0.3);
+    border: px solid #012707;
+    text-align: center;
+}
+.card h1 {
+    color: rgb(8, 42, 16);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #1a1a1a;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 80%;
+    padding: 12px 14px;
+    margin: 8px 0;
+    background: #bdf5cb;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    color: rgb(9, 9, 9);
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+input:-webkit-autofill{
+        -webkit-box-shadow:opx 1000px #a3e1b2 inser !important;
+
+}
+input:focus {
+    border-color: #02320e;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    margin-top: 12px;
+    background: #1f7e30;
+    color: rgb(157, 229, 187);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #063810;
+}
+
+.or {
+    color: #fbfcfd;
+    font-size: 13px;
+    margin: 16px 0 10px;
+}
+
+.login-link {
+    color: #c5c7c9;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #f5f8fa;
+    text-decoration:darkgreen;
+    cursor: pointer;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+#msg {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #011123;
+}
+
+.hidden {
+    display: none !important;
+}
