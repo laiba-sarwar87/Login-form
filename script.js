@@ -37,7 +37,7 @@ function handleAction() {
             return;
         }
         if (!email.includes("@") || !email.includes(".")) {
-            msg.innerText = "❌ Write correct email!";
+            msg.innerText = "❌ Write the correct email !";
             msg.style.color = "red";
             return;
         }
@@ -54,12 +54,12 @@ function handleAction() {
             return;
         }
         if (!email.includes("@") || !email.includes(".")) {
-            msg.innerText = "❌ write correct email adress!";
+            msg.innerText = "❌ write the correct email address!";
             msg.style.color = "red";
             return;
         }
         if (password.length < 6) {
-            msg.innerText = "❌ Write the password that has 6+ character!";
+            msg.innerText = "❌ Write the password that has 6+ characters!";
             msg.style.color = "red";
             return;
         }
